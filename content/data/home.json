@@ -1,0 +1,260 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Anime Dice Wiki: Codes, Tier List, Traits & Guides",
+  "description": "Anime Dice on Roblox: working codes, the unit tier list, all 13 traits, grades from D to Z+, mutations, rebirth and the first-session buttons.",
+  "keywords": [
+    "Anime Dice",
+    "Anime Dice wiki",
+    "Anime Dice guide",
+    "Roblox Anime Dice"
+  ],
+  "primaryKeyword": "Anime Dice",
+  "secondaryKeywords": [
+    "Anime Dice wiki",
+    "Anime Dice guide",
+    "Roblox Anime Dice"
+  ],
+  "searchIntent": "Find what Anime Dice is and open the codes, units, traits, grades, rebirth and beginner pages.",
+  "priority": "P0",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Roblox reference",
+    "heading": "Anime Dice",
+    "lead": "Roll anime-style characters, place them on pads for Cash, and raise Luck with better dice. This is an independent fan-made reference for the current buttons, codes and recorded unit stats.",
+    "supportingText": "Anime Dice Guide is an independent fan-made reference based on official game information and cross-checked public sources. Fast-changing details such as codes and panel values are refreshed when newer source material becomes available.",
+    "primaryLink": {
+      "label": "Anime Dice Codes",
+      "slug": "anime-dice-codes"
+    },
+    "secondaryLink": {
+      "label": "Play Anime Dice on Roblox",
+      "url": "https://www.roblox.com/games/113290951185459/Anime-Dice"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-anime-dice",
+      "heading": "What Is Anime Dice?",
+      "paragraphs": [
+        "Anime Dice is a Roblox experience from More & More Games. You roll dice to reveal a character copy, place that copy on a plot pad, and let it generate Cash. Cash buys better dice and upgrades. Better dice raise Luck, and Luck is what later rolls are taken with. Placed units also keep generating Cash while you are offline.",
+        "The left side of the screen is the navigation that matters. Shop is the window with the code box at the bottom. Rebirth is the cash reset that raises your Luck multiplier and Cash multiplier. Index is the collection list. Separate stations in the hub handle Traits, Grades and selling duplicate units.",
+        "A copy is more than its name. It can have a grade, one trait, a mutation such as Silver or Rainbow, and a size such as Huge or Titanic. Two Naroto copies can earn very different amounts. The pages below separate those systems so a code reward, a reroll and a new pull each have an obvious next step."
+      ]
+    },
+    {
+      "id": "anime-dice-codes",
+      "heading": "Anime Dice Codes",
+      "paragraphs": [
+        "Sixteen codes are in the working table for September 28, 2026, including UPDATE6, 400KLIKES, UPDATE2, UPDATE1 and RELEASE. Redeem them from Shop on the left: scroll to Enter Code and press the green Redeem button.",
+        "UPDATE2, UPDATE1 and RELEASE have exact reward counts: Lucky Spins, Trait Rerolls and Gems. The other working codes are a reward bundle of freebies. The codes page has the full table and the usual reasons a paste fails."
+      ],
+      "links": [
+        {
+          "label": "Anime Dice Codes",
+          "slug": "anime-dice-codes",
+          "description": "The working code table and the five redeem steps."
+        }
+      ]
+    },
+    {
+      "id": "anime-dice-tier-list",
+      "heading": "Anime Dice Tier List",
+      "paragraphs": [
+        "The tier list ranks 24 units by recorded base income. S is Enol at $9.1K/s, then Sakuna, Madera and Maheto. A is Todoh, Super Saiyen and Goko. Starters such as Naroto, at $1/s, sit in D. Grade, Trait, size and Mutation can put a lower name above a plain unit from a higher tier, so the table is the plain-copy order.",
+        "Gujo, Levy, Pikolo and Zenitsa are Index names without a matching base-income row, so they are not given a tier. If you roll one, compare the Income per second on that copy with the unit already on your worst pad."
+      ],
+      "links": [
+        {
+          "label": "Anime Dice Tier List",
+          "slug": "anime-dice-tier-list",
+          "description": "Every ranked unit, with odds, income and whether to keep it."
+        }
+      ]
+    },
+    {
+      "id": "traits-grades-and-mutations",
+      "heading": "Traits, Grades and Mutations",
+      "subsections": [
+        {
+          "heading": "Anime Dice Traits",
+          "paragraphs": [
+            "There are 13 traits. Transcendent, Monarch, Shogun and Samurai multiply Income, Damage and Health. The other nine are Money, Damage or Health at 2x, 1.5x or 1.2x. A reroll costs 1 Trait Reroll and replaces the old trait."
+          ]
+        },
+        {
+          "heading": "Anime Dice Grades",
+          "paragraphs": [
+            "Grades run from D at 1.1x Income to Z+ at 25x Income. They do not add Damage or Health. Roll them at the Grades station with the Gem button, on a unit you intend to keep placing."
+          ]
+        },
+        {
+          "heading": "Anime Dice Mutations",
+          "paragraphs": [
+            "Silver, Gold, Emerald, Diamond, Ruby and Rainbow are labels on the copy you roll. They are not a paid mutate button. Huge and Titanic are sizes. Read the card before you sell a duplicate."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Anime Dice Traits",
+          "slug": "anime-dice-traits",
+          "description": "The full trait table, including chances."
+        },
+        {
+          "label": "Anime Dice Grades",
+          "slug": "anime-dice-grades",
+          "description": "D through Z+ and when to stop rolling."
+        },
+        {
+          "label": "Anime Dice Mutations",
+          "slug": "anime-dice-mutations",
+          "description": "How a mutated copy shows up, without invented multipliers."
+        }
+      ]
+    },
+    {
+      "id": "anime-dice-characters",
+      "heading": "Characters and Units",
+      "paragraphs": [
+        "The character list is the Index view of the same 24 units: name, base odds and recorded base income. Enol is 1 in 290K. Naroto is 1 in 2. Use that page when you want the number, and the tier list when you want the keep-or-replace decision.",
+        "In-game names are kept as spelled. The Index does not use the original anime series names, and neither does this site."
+      ],
+      "links": [
+        {
+          "label": "Anime Dice Characters",
+          "slug": "anime-dice-characters",
+          "description": "Index odds, base income and the four unranked names."
+        }
+      ]
+    },
+    {
+      "id": "rebirth-and-progression",
+      "heading": "Rebirth and Progression",
+      "paragraphs": [
+        "Rebirth sets Cash to zero and raises the Luck and Cash multipliers on the panel. Units stay on their pads. Dice, upgrades, Gems, Trait Rerolls, and the grade and trait already on a copy stay too. The first step is $50,000, from 1x to 1.5x. The second is $5,000,000, from 1.5x to 2x. Later rebirths continue past 2x, and the cash figure on your Rebirth panel is the one that applies.",
+        "Spend cash above the requirement before you confirm. The surplus is deleted. The multiplier is not a currency you then invest. It is already the new account bonus when the panel updates."
+      ],
+      "links": [
+        {
+          "label": "Anime Dice Rebirth Guide",
+          "slug": "anime-dice-rebirth",
+          "description": "What resets, what stays, and the early cash steps."
+        }
+      ]
+    },
+    {
+      "id": "how-to-play-anime-dice",
+      "heading": "How to Play Anime Dice",
+      "steps": [
+        {
+          "heading": "Roll and place",
+          "description": "Reveal a unit and put it on a pad so it starts making Cash."
+        },
+        {
+          "heading": "Upgrade Luck",
+          "description": "Buy the next die and Money and Luck upgrades before you pour cash into a starter you will replace."
+        },
+        {
+          "heading": "Redeem codes",
+          "description": "Shop, Enter Code, green Redeem. Then spend Trait Rerolls and Gems on keepers."
+        },
+        {
+          "heading": "Rebirth on the panel",
+          "description": "Reset once the plotted units can earn the cash requirement again."
+        }
+      ],
+      "links": [
+        {
+          "label": "How to Play Anime Dice",
+          "slug": "how-to-play-anime-dice",
+          "description": "The full button-by-button first session."
+        }
+      ]
+    },
+    {
+      "id": "official-anime-dice-links",
+      "heading": "Official Anime Dice Links",
+      "paragraphs": [
+        "The official Roblox page for Anime Dice is the place to join the current version from More & More Games. Developer posts, including new codes, go out through that studio's Roblox group and Discord. If a code or a button on this site disagrees with the live game, the live game is the one to follow.",
+        "Fan servers that use the game's name are not the developer. A code that has not been repeated by a second current list is not added here."
+      ]
+    },
+    {
+      "id": "anime-dice-roadmap",
+      "heading": "Where to Go Next",
+      "intro": "Each page answers one question.",
+      "links": [
+        {
+          "label": "Anime Dice Codes",
+          "slug": "anime-dice-codes",
+          "description": "Working codes and the Shop redeem path."
+        },
+        {
+          "label": "Anime Dice Tier List",
+          "slug": "anime-dice-tier-list",
+          "description": "Units ranked by recorded base income."
+        },
+        {
+          "label": "Anime Dice Traits",
+          "slug": "anime-dice-traits",
+          "description": "All 13 traits and the reroll."
+        },
+        {
+          "label": "Anime Dice Characters",
+          "slug": "anime-dice-characters",
+          "description": "Index odds and base income."
+        },
+        {
+          "label": "Anime Dice Grades",
+          "slug": "anime-dice-grades",
+          "description": "D to Z+ Income multipliers."
+        },
+        {
+          "label": "Anime Dice Rebirth Guide",
+          "slug": "anime-dice-rebirth",
+          "description": "Reset, keep, and the early costs."
+        },
+        {
+          "label": "Anime Dice Mutations",
+          "slug": "anime-dice-mutations",
+          "description": "Rolled variants from Silver to Rainbow."
+        },
+        {
+          "label": "How to Play Anime Dice",
+          "slug": "how-to-play-anime-dice",
+          "description": "First session, in button order."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Anime Dice?",
+      "answer": "Anime Dice is a Roblox game by More & More Games. You roll character copies, place them to earn Cash, upgrade dice for Luck, and chase grades, traits and mutations. Cash continues while you are offline."
+    },
+    {
+      "question": "Is Anime Dice free?",
+      "answer": "You can join and play without paying. The experience is on Roblox. Optional purchases may exist in the Roblox shop, and nothing on this site asks you to buy Robux."
+    },
+    {
+      "question": "Where do I enter Anime Dice codes?",
+      "answer": "Click Shop on the left, scroll to the bottom, paste the code into Enter Code, and press the green Redeem button."
+    },
+    {
+      "question": "Who is the best Anime Dice unit?",
+      "answer": "Enol has the highest recorded base income, at $9.1K/s. Sakuna, Madera and Maheto are the other S-tier base incomes. A modified copy can out-earn a plain Enol, so compare the card."
+    },
+    {
+      "question": "What is the best Anime Dice trait?",
+      "answer": "Transcendent, at 15x Income, Damage and Health. Monarch, Shogun and Samurai are the other all-stat traits."
+    },
+    {
+      "question": "What does rebirth reset?",
+      "answer": "Cash. Units, dice, upgrades, Gems and Trait Rerolls stay, and the Luck and Cash multipliers go up."
+    }
+  ],
+  "screenshots": [],
+  "lastReviewed": "2026-09-28"
+}

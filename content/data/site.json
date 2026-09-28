@@ -1,0 +1,50 @@
+{
+  "readyForLaunch": true,
+  "siteName": "Anime Dice Guide",
+  "shortName": "Anime Dice",
+  "description": "An independent fan-made reference for Anime Dice on Roblox, covering codes, unit rankings, traits, grades, mutations, rebirth and a beginner walkthrough.",
+  "language": "en",
+  "locale": "en_US",
+  "authorName": "Anime Dice Guide",
+  "theme": {
+    "preset": "anime-dice",
+    "skin": "resource",
+    "headerStyle": "solid",
+    "componentStyle": "sharp",
+    "fontId": "source-sans"
+  },
+  "hosting": {
+    "siteUrl": "https://anime-dice-roblox.github.io",
+    "basePath": "",
+    "customDomain": null
+  },
+  "contact": {
+    "email": null,
+    "url": null
+  },
+  "repositoryUrl": null,
+  "allowedExternalDomains": [
+    "www.roblox.com"
+  ],
+  "assets": {
+    "logo": "/images/anime-dice-logo.webp",
+    "cover": "/images/anime-dice-cover.webp",
+    "openGraph": "/images/anime-dice-og.svg",
+    "favicon": "/images/anime-dice-logo.webp"
+  },
+  "game": {
+    "name": "Anime Dice",
+    "platform": "Roblox",
+    "developer": "More & More Games",
+    "genre": "",
+    "officialUrl": "https://www.roblox.com/games/113290951185459/Anime-Dice"
+  },
+  "seo": {
+    "titleTemplate": "%s | Anime Dice Guide",
+    "defaultKeywords": [
+      "Anime Dice",
+      "Anime Dice codes",
+      "Anime Dice tier list"
+    ]
+  }
+}
