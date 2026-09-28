@@ -525,12 +525,12 @@
           {
             "label": "Anime Dice Traits",
             "slug": "anime-dice-traits",
-            "description": "The 13 traits and which ones are worth stopping on."
+            "description": "Documented trait effects, chances and rerolls."
           },
           {
             "label": "Anime Dice Grades",
             "slug": "anime-dice-grades",
-            "description": "Income multipliers from D through Z+."
+            "description": "Documented grade Income multipliers and rerolls."
           },
           {
             "label": "Anime Dice Mutations",
@@ -571,8 +571,8 @@
     "slug": "anime-dice-traits",
     "pageType": "list",
     "navLabel": "Traits",
-    "title": "Anime Dice Traits: All 13 Traits and Rerolls",
-    "description": "All 13 Anime Dice traits, with Income, Damage and Health multipliers, the listed roll chance for each, and when to stop spending Trait Rerolls.",
+    "title": "Anime Dice Traits: Effects, Odds & Rerolls",
+    "description": "Anime Dice traits with Income, Damage and Health effects, listed roll chances, and keep-or-reroll advice for each documented result.",
     "keywords": [
       "Anime Dice traits",
       "Anime Dice trait list",
@@ -590,13 +590,13 @@
     "hero": {
       "eyebrow": "Traits",
       "heading": "Anime Dice Traits",
-      "lead": "Thirteen traits. Four of them multiply Income, Damage and Health together. A new roll replaces the trait on that unit."
+      "lead": "Compare documented Anime Dice trait multipliers, roll chances, and when each result is worth keeping or rerolling."
     },
     "sections": [
       {
         "id": "anime-dice-traits-list",
         "heading": "Anime Dice Trait List",
-        "intro": "These effects and chances match the Traits panel figures repeated by several September 2026 guides, including menu screenshots. A dash means that trait does not list a multiplier for that stat.",
+        "intro": "The table below contains 13 trait rows with complete multiplier and roll-chance values. These effects and chances match the Traits panel figures repeated by several September 2026 guides, including menu screenshots. A dash means that trait does not list a multiplier for that stat.",
         "table": {
           "caption": "Anime Dice traits",
           "columns": [
@@ -719,10 +719,10 @@
         "id": "best-anime-dice-traits",
         "heading": "Best Anime Dice Traits",
         "paragraphs": [
-          "Transcendent is the best trait in the list: 15x Income, 15x Damage and 15x Health, at 0.006%. Monarch is the next all-stat result at 8x and 0.025%. Shogun is 5x at 0.12%, and Samurai is 3x at 0.5%. If any of those four lands on a unit you still place, stop rerolling that unit.",
+          "Among the fully documented traits in the table below, Transcendent has the highest recorded all-stat multiplier: 15x Income, 15x Damage and 15x Health, with a listed 0.006% chance. Monarch is the next documented all-stat result at 8x and 0.025%. Shogun is 5x at 0.12%, and Samurai is 3x at 0.5%. Any of Samurai, Shogun, Monarch or Transcendent is already a strong documented stop, especially on a unit you intend to keep.",
           "Money III, Damage III and Health III are the best single-stat results, each at 2x and 1.2%. Money belongs on a unit that sits on a plot pad and makes cash. Damage and Health belong on units you bring to Tower. A 2x Money trait does nothing for a floor clear, and a 2x Damage trait is the wrong target if the unit's only job is income.",
           "Tier II traits are 1.5x at 6.3%, and tier I traits are 1.2x at 25.4%. Most rolls land in that common range. That is why spending Trait Rerolls on Naroto, Ichiga or any other unit you are about to replace is the usual waste. Hold the rerolls until the unit is one you would still equip after your next dice upgrade.",
-          "Samurai is the realistic all-stat stop for most accounts. Half a percent is still rare, but it is much closer than Transcendent. Tripling all three stats already beats any 2x single-stat trait on raw value. Keep Samurai unless you have a large reroll stack and the unit is one of the S-tier income names."
+          "Samurai is a realistic documented all-stat stop for most accounts. Half a percent is still rare, but it is much closer than Transcendent. Tripling all three stats already beats any 2x single-stat trait in this table on raw value. Keep Samurai unless you have a large reroll stack and the unit is one of the S-tier income names."
         ]
       },
       {
@@ -731,7 +731,8 @@
         "paragraphs": [
           "A unit holds one trait. The new result replaces the old one. There is no way to store the previous trait on that same copy, so do not reroll Transcendent, Monarch, Shogun or a Samurai you are happy with.",
           "Open the Traits station in the hub, select the unit, and roll. Each roll spends 1 Trait Reroll. Codes such as UPDATE2, UPDATE1 and RELEASE are a direct source of those rerolls, and Tower rewards and the Shop are the other sources players use.",
-          "The trait and the Grade are separate. Rolling a trait does not change the Grade, and rolling a Grade does not change the trait. A keeper wants both: a high Income Grade for cash, and either Money or an all-stat trait depending on whether that copy is a pad unit or a Tower unit."
+          "The trait and the Grade are separate. Rolling a trait does not change the Grade, and rolling a Grade does not change the trait. A keeper wants both: a high Income Grade for cash, and either Money or an all-stat trait depending on whether that copy is a pad unit or a Tower unit.",
+          "Read each row as a multiplier on that one copy. The four fully documented all-stat traits in this table are Transcendent, Monarch, Shogun and Samurai. A Money, Damage or Health row multiplies only that stat, which is why the other columns show a dash. After you roll, compare the card's Income per second, Damage and Health with the copy already on the pad. Keep the result when that card is the one you would still place."
         ],
         "links": [
           {
@@ -759,8 +760,8 @@
     ],
     "faq": [
       {
-        "question": "What is the best trait in Anime Dice?",
-        "answer": "Transcendent, at 15x Income, 15x Damage and 15x Health. Monarch is 8x across the same three stats, Shogun is 5x, and Samurai is 3x."
+        "question": "What is the strongest documented Anime Dice trait here?",
+        "answer": "Among the traits with complete values in this table, Transcendent has the highest recorded all-stat multiplier at 15x Income, 15x Damage and 15x Health, with a listed 0.006% chance. Monarch is 8x, Shogun is 5x, and Samurai is 3x."
       },
       {
         "question": "How do you reroll a trait?",
@@ -772,7 +773,7 @@
       },
       {
         "question": "Do traits affect damage and cash?",
-        "answer": "The four named traits multiply Income, Damage and Health. Money traits multiply Income only. Damage traits multiply Damage only. Health traits multiply Health only."
+        "answer": "The four fully documented all-stat traits in this table are Transcendent, Monarch, Shogun and Samurai. Money traits multiply Income only. Damage traits multiply Damage only. Health traits multiply Health only."
       }
     ],
     "relatedSlugs": [
@@ -1044,8 +1045,8 @@
     "slug": "anime-dice-grades",
     "pageType": "list",
     "navLabel": "Grades",
-    "title": "Anime Dice Grades: D to Z+ Income List",
-    "description": "Anime Dice grades from D to Z+, the Income multiplier for each letter, and how to reroll a grade with the Gem button at the Grades station.",
+    "title": "Anime Dice Grades: Income Multipliers & Rerolls",
+    "description": "Anime Dice grade multipliers with documented Income values from D through Z+, plus how grade rerolls work and when a result is worth keeping.",
     "keywords": [
       "Anime Dice grades",
       "Anime Dice grade list",
@@ -1063,13 +1064,13 @@
     "hero": {
       "eyebrow": "Grades",
       "heading": "Anime Dice Grades",
-      "lead": "Nine grades, from D at 1.1x Income to Z+ at 25x Income. A grade changes cash, not Damage or Health."
+      "lead": "Compare the documented Anime Dice grade multipliers, from D through Z+ in the current table, and learn when to keep or reroll each result."
     },
     "sections": [
       {
         "id": "anime-dice-grade-list",
         "heading": "Anime Dice Grade List",
-        "intro": "Nine Income multipliers, from Z+ at 25x down to D at 1.1x. The letter multiplies Income on that one copy.",
+        "intro": "The table below contains nine grade rows with complete recorded Income multipliers, from D at 1.1x through Z+ at 25x. The letter multiplies Income on that one copy.",
         "table": {
           "caption": "Anime Dice grades and Income multipliers",
           "columns": [
@@ -1081,7 +1082,7 @@
             [
               "Z+",
               "25x Income",
-              "Best listed Income multiplier. Keep it."
+              "Highest fully documented multiplier in this table. Keep it."
             ],
             [
               "Z",
@@ -1130,8 +1131,8 @@
         "id": "how-grades-work-in-anime-dice",
         "heading": "How Grades Work in Anime Dice",
         "paragraphs": [
-          "A grade is an Income multiplier on one copy. Z+ is 25x Income. Z is 15x, S+ is 10x, S is 7x, A+ is 4.5x, A is 3x, B is 1.6x, C is 1.2x and D is 1.1x. The gap from D to Z+ is the whole point of the system: the same unit name can be a minor earner or the best pad on the plot.",
-          "Grades do not add Damage or Health. Tower performance comes from the unit, its trait, and your Damage and Health upgrades. Use Gems on the copy whose job is cash.",
+          "A grade is an Income multiplier on one copy. Across the fully documented rows in this table, Income multipliers range from D at 1.1x to Z+ at 25x. Z is 15x, S+ is 10x, S is 7x, A+ is 4.5x, A is 3x, B is 1.6x and C is 1.2x. The same unit name can be a minor earner or a much stronger pad, depending on the letter on that copy.",
+          "Grades do not add Damage or Health. Tower performance comes from the unit, its trait, and your Damage and Health upgrades. Use Gems on the copy whose job is cash. Apply the multiplier to the copy you are holding, not only to the base-income row in the character list. Trait, size and mutation can already be on that card, so the letter changes whatever Income the copy has now.",
           "Open the Grades station, select the unit, and roll with the Gem button. The new letter replaces the old one. Spend that roll on a unit you will still place after the next dice upgrade. A D or C on Enol is worth chasing. A Z+ on a plain Naroto is a strong multiplier on a $1/s base, and it can still lose to a plain Sakuna or Maheto. Read the copy's Income per second after the roll, not the letter alone.",
           "Gems also come from codes. UPDATE2 includes 5 Gems, UPDATE1 includes 3, and RELEASE includes 2. Redeem the other working codes before you sit down at the Grades station. Their reward is a bundle of freebies, and the Shop button is the same one used for UPDATE2."
         ],
@@ -1162,21 +1163,21 @@
         "id": "which-grade-to-stop-on",
         "heading": "Which Grade to Stop On",
         "paragraphs": [
-          "Stop on Z+ . It is the highest multiplier in the agreed list. Z at 15x is also a stop for almost every unit. S+ and S are stops on a long-term earner if your Gem stack is small. A+ and A are fine while you are still filling pads, and they are worth replacing later on an S-tier name.",
+          "Z+ at 25x is the highest fully documented multiplier in the current table and is an immediate keep. Z at 15x is also a strong stop for almost every long-term earner. S+ and S are stops on a long-term earner if your Gem stack is small. A+ and A are fine while you are still filling pads, and they are worth replacing later on an S-tier name.",
           "D, C and B are not targets. They are what most rolls will show. Leave a low grade on a unit you are about to replace, and keep rolling only on the names in the tier list's S and A bands.",
           "Roll one grade, then look at the pad. If the new Income per second beats the unit you would take off, place the copy and stop. If it does not, leave the low letter on a filler and spend the next Gems on Enol, Sakuna, Madera or Maheto.",
-          "After a grade roll, look at Income per second on the card rather than treating the letter as a trophy. A Z on a low base-income starter can still lose a pad to a plain Sakuna, Madera or Maheto. The letter tells you the multiplier. The card tells you the result."
+          "After a grade roll, look at Income per second on the card rather than treating the letter as a trophy. A Z on a low base-income starter can still lose a pad to a plain Sakuna, Madera or Maheto. The same check applies to Z+. A 25x multiplier on a unit you are about to replace is still the wrong place for the next Gem. The letter tells you the multiplier. The card tells you the result."
         ]
       }
     ],
     "faq": [
       {
-        "question": "What are the Anime Dice grades?",
-        "answer": "D, C, B, A, A+, S, S+, Z and Z+. Their Income multipliers are 1.1x, 1.2x, 1.6x, 3x, 4.5x, 7x, 10x, 15x and 25x."
+        "question": "What are the documented Anime Dice grades in this table?",
+        "answer": "The current table documents D, C, B, A, A+, S, S+, Z and Z+. Their recorded Income multipliers are 1.1x, 1.2x, 1.6x, 3x, 4.5x, 7x, 10x, 15x and 25x."
       },
       {
-        "question": "What is the best grade in Anime Dice?",
-        "answer": "Z+ is the best grade in the agreed list, at 25x Income. Z is next at 15x Income."
+        "question": "What is the highest documented Anime Dice grade here?",
+        "answer": "Z+ is the highest grade with a complete multiplier in this table, at 25x Income. Z is next among the documented rows at 15x."
       },
       {
         "question": "How do you reroll a grade?",
@@ -1594,7 +1595,7 @@
         "heading": "The Left-Side Buttons",
         "paragraphs": [
           "Three buttons on the left come up immediately. Shop is where codes are redeemed, at the bottom of that window, and where you buy extra rolls or resources. Rebirth is the cash reset that raises Luck and Cash multipliers. Index is the collection list, not the backpack of copies you are holding.",
-          "The hub also has stations rather than more left-side icons. The Traits station takes Trait Rerolls. The Grades station takes Gems and rolls an Income letter from D to Z+. The Sell Units stand is where plain duplicates go after you have read the card. The dice shop is where Cash turns into a higher Luck die.",
+          "The hub also has stations rather than more left-side icons. The Traits station takes Trait Rerolls. The Grades station takes Gems and rolls an Income grade onto one copy. The Sell Units stand is where plain duplicates go after you have read the card. The dice shop is where Cash turns into a higher Luck die.",
           "Tower is the combat side of the same units. Traits that say Damage or Health matter there. Grades do not add those stats. You can ignore Tower for the first stretch of a new account and still progress, because cash from the plot is what buys the next die."
         ]
       },
@@ -1603,8 +1604,8 @@
         "heading": "What to Spend First",
         "paragraphs": [
           "Cash goes to the next die and to Money and Luck upgrades before it goes to a starter unit you will replace. A better die improves rolls from that point on. A level on plain Naroto does not. Look at the tier list if you are unsure whether the name in your hand is a starter.",
-          "Trait Rerolls go to a unit you would still place after the next rebirth. Stop when you hit Samurai, Shogun, Monarch or Transcendent. Money III is a fine stop on a plot earner. Damage III and Health III are the stops for a Tower unit.",
-          "Gems go to the same kind of keeper. The grade list runs from D at 1.1x Income to Z+ at 25x Income. Rolling a grade onto a unit you are about to sell spends a Gem you could have used on Enol, Sakuna, Madera, Maheto or the best A unit you have.",
+          "Trait Rerolls go to a unit you would still place after the next rebirth. Samurai, Shogun, Monarch and Transcendent are all strong documented stops on a keeper. Money III is a fine stop on a plot earner. Damage III and Health III are the stops for a Tower unit.",
+          "Gems go to the same kind of keeper. The documented grade table currently runs from D at 1.1x Income through Z+ at 25x Income. Rolling a grade onto a unit you are about to sell spends a Gem you could have used on Enol, Sakuna, Madera, Maheto or the best A unit you have.",
           "Lucky Spins are rolls. They are more useful after the die and the Luck upgrades are no longer the starter setup. Spending them in the first minute is allowed, and it is weaker than spending them once the Luck multiplier from the first rebirth is already on the account."
         ],
         "links": [
@@ -1626,12 +1627,12 @@
           {
             "label": "Anime Dice Traits",
             "slug": "anime-dice-traits",
-            "description": "All 13 traits and the reroll rule."
+            "description": "Documented trait effects, odds and rerolls."
           },
           {
             "label": "Anime Dice Grades",
             "slug": "anime-dice-grades",
-            "description": "D through Z+ and what they multiply."
+            "description": "Documented grade Income multipliers and rerolls."
           },
           {
             "label": "Anime Dice Mutations",

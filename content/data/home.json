@@ -3,7 +3,7 @@
   "slug": "",
   "pageType": "home",
   "title": "Anime Dice Wiki: Codes, Tier List, Traits & Guides",
-  "description": "Anime Dice on Roblox: working codes, the unit tier list, all 13 traits, grades from D to Z+, mutations, rebirth and the first-session buttons.",
+  "description": "Anime Dice on Roblox: working codes, the unit tier list, documented trait effects, grade multipliers, mutations, rebirth and a beginner walkthrough.",
   "keywords": [
     "Anime Dice",
     "Anime Dice wiki",
@@ -80,13 +80,13 @@
         {
           "heading": "Anime Dice Traits",
           "paragraphs": [
-            "There are 13 traits. Transcendent, Monarch, Shogun and Samurai multiply Income, Damage and Health. The other nine are Money, Damage or Health at 2x, 1.5x or 1.2x. A reroll costs 1 Trait Reroll and replaces the old trait."
+            "The Traits guide currently documents 13 trait rows with complete multipliers and roll chances, including Transcendent, Monarch, Shogun and Samurai. Those four multiply Income, Damage and Health. The other documented rows are Money, Damage or Health at 2x, 1.5x or 1.2x. A reroll costs 1 Trait Reroll and replaces the old trait."
           ]
         },
         {
           "heading": "Anime Dice Grades",
           "paragraphs": [
-            "Grades run from D at 1.1x Income to Z+ at 25x Income. They do not add Damage or Health. Roll them at the Grades station with the Gem button, on a unit you intend to keep placing."
+            "The Grades guide documents Income multipliers from D at 1.1x through Z+ at 25x in its current table. They do not add Damage or Health. Roll them at the Grades station with the Gem button, on a unit you intend to keep placing."
           ]
         },
         {
@@ -100,12 +100,12 @@
         {
           "label": "Anime Dice Traits",
           "slug": "anime-dice-traits",
-          "description": "The full trait table, including chances."
+          "description": "Documented trait effects, odds and rerolls."
         },
         {
           "label": "Anime Dice Grades",
           "slug": "anime-dice-grades",
-          "description": "D through Z+ and when to stop rolling."
+          "description": "Documented grade Income multipliers and rerolls."
         },
         {
           "label": "Anime Dice Mutations",
@@ -199,7 +199,7 @@
         {
           "label": "Anime Dice Traits",
           "slug": "anime-dice-traits",
-          "description": "All 13 traits and the reroll."
+          "description": "Documented trait effects, odds and rerolls."
         },
         {
           "label": "Anime Dice Characters",
@@ -209,7 +209,7 @@
         {
           "label": "Anime Dice Grades",
           "slug": "anime-dice-grades",
-          "description": "D to Z+ Income multipliers."
+          "description": "Documented grade Income multipliers and rerolls."
         },
         {
           "label": "Anime Dice Rebirth Guide",
@@ -247,8 +247,8 @@
       "answer": "Enol has the highest recorded base income, at $9.1K/s. Sakuna, Madera and Maheto are the other S-tier base incomes. A modified copy can out-earn a plain Enol, so compare the card."
     },
     {
-      "question": "What is the best Anime Dice trait?",
-      "answer": "Transcendent, at 15x Income, Damage and Health. Monarch, Shogun and Samurai are the other all-stat traits."
+      "question": "What is the strongest documented Anime Dice trait here?",
+      "answer": "Among the traits with complete values in the current table, Transcendent has the highest recorded all-stat multiplier at 15x Income, Damage and Health."
     },
     {
       "question": "What does rebirth reset?",
