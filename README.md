@@ -66,7 +66,7 @@ The production origin is `content/data/site.json`. The deploy workflow does not 
 Optional values still come from repository variables and secrets (nothing secret is committed):
 
 - Variable: `NEXT_PUBLIC_THEME_PRESET`
-- Secrets: `NEXT_PUBLIC_ADSTERRA_NATIVE_SCRIPT_URL`, `NEXT_PUBLIC_ADSTERRA_NATIVE_CONTAINER_ID`, `GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION`
+- Secrets: `GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION`
 
 Copy `.env.example` to `.env.local` for a local override. Leave a value blank to keep the
 committed default. `NEXT_PUBLIC_GA_MEASUREMENT_ID` overrides the measurement ID only when it

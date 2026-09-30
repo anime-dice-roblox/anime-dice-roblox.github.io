@@ -147,18 +147,6 @@ for (const url of externalUrls) {
   }
 }
 
-if (integrations.ads.provider === "adsterra-native") {
-  if (!integrations.ads.scriptUrl.startsWith("https://") || !integrations.ads.containerId) {
-    fail("Native advertising requires an HTTPS script URL and a container ID");
-  }
-}
-
-const rawAdScript = process.env.NEXT_PUBLIC_ADSTERRA_NATIVE_SCRIPT_URL?.trim();
-const rawAdContainer = process.env.NEXT_PUBLIC_ADSTERRA_NATIVE_CONTAINER_ID?.trim();
-if (Boolean(rawAdScript) !== Boolean(rawAdContainer)) {
-  fail("Native advertising configuration is partial; provide both values or neither");
-}
-
 if (siteConfig.readyForLaunch) {
   // Template scaffolding tokens are defects anywhere; the bare word "placeholder" is only a
   // defect in configuration, where it would mean a real value was never filled in.

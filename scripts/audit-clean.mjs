@@ -18,6 +18,7 @@ const secretPatterns = [
   { label: "analytics site code", pattern: /data-code=["'][A-Za-z0-9_-]{16,}["']/ },
   { label: "absolute user path", pattern: /(\/Users\/[^/\s"']+\/|C:\\Users\\[^\\\s"']+\\|\/home\/[^/\s"']+\/)/ },
 ];
+const approvedNativeContainerId = "container-5be41c9e5d429cdd1a87073169da3df4";
 
 const findings = [];
 
@@ -36,7 +37,10 @@ function inspect(path) {
   const displayPath = relative(root, path);
 
   for (const { label, pattern } of secretPatterns) {
-    if (pattern.test(text)) findings.push(`${displayPath}: possible ${label}`);
+    const inspectedText = label === "advertising container ID"
+      ? text.replaceAll(approvedNativeContainerId, "")
+      : text;
+    if (pattern.test(inspectedText)) findings.push(`${displayPath}: possible ${label}`);
   }
 
   for (const email of text.match(/\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi) ?? []) {

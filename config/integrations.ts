@@ -9,9 +9,6 @@ type FileIntegrations = {
 
 const fileIntegrations = rawIntegrations as FileIntegrations;
 
-const adScriptUrl = process.env.NEXT_PUBLIC_ADSTERRA_NATIVE_SCRIPT_URL?.trim();
-const adContainerId = process.env.NEXT_PUBLIC_ADSTERRA_NATIVE_CONTAINER_ID?.trim();
-
 function fileValue(value: unknown): string {
   return typeof value === "string" ? value.trim() : "";
 }
@@ -27,14 +24,7 @@ export const integrations: IntegrationConfig = {
   analytics: /^G-[A-Z0-9]+$/i.test(gaMeasurementId)
     ? { provider: "google-analytics", measurementId: gaMeasurementId.toUpperCase() }
     : { provider: "none" },
-  ads:
-    adScriptUrl && adContainerId
-      ? {
-          provider: "adsterra-native",
-          scriptUrl: adScriptUrl,
-          containerId: adContainerId,
-        }
-      : { provider: "none" },
+  ads: { provider: "none" },
   verification: {
     google: googleVerification,
     bing: bingVerification,

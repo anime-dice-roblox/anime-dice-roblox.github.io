@@ -1,17 +1,24 @@
 import Link from "next/link";
+import { Fragment, type ReactNode } from "react";
 import type { PageSection } from "@/config/types";
 import { routePath } from "@/lib/urls";
 import { DataTable } from "./data-table";
 
-export function WikiPageSections({ sections }: { sections: PageSection[] }) {
+export function WikiPageSections({ sections, firstContentAd }: { sections: PageSection[]; firstContentAd?: ReactNode }) {
   return (
     <div className="wiki-page-sections">
-      {sections.map((section) => (
+      {sections.map((section, sectionIndex) => (
         <section id={section.id} key={section.id} className="scroll-mt-24">
           {section.eyebrow ? <p className="eyebrow">{section.eyebrow}</p> : null}
           <h2>{section.heading}</h2>
           {section.intro ? <p className="section-lead">{section.intro}</p> : null}
-          {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          {sectionIndex === 0 && section.intro ? firstContentAd : null}
+          {section.paragraphs?.map((paragraph, paragraphIndex) => (
+            <Fragment key={paragraph}>
+              <p>{paragraph}</p>
+              {sectionIndex === 0 && !section.intro && paragraphIndex === 0 ? firstContentAd : null}
+            </Fragment>
+          ))}
 
           {section.subsections?.length ? (
             <div className="wiki-subsections">
@@ -33,13 +40,18 @@ export function WikiPageSections({ sections }: { sections: PageSection[] }) {
           {section.steps?.length ? (
             <ol className="wiki-steps">
               {section.steps.map((step, index) => (
-                <li key={step.heading} className="wiki-step">
-                  <span className="wiki-step-index">{index + 1}</span>
-                  <div>
-                    <h3>{step.heading}</h3>
-                    <p>{step.description}</p>
-                  </div>
-                </li>
+                <Fragment key={step.heading}>
+                  <li className="wiki-step">
+                    <span className="wiki-step-index">{index + 1}</span>
+                    <div>
+                      <h3>{step.heading}</h3>
+                      <p>{step.description}</p>
+                    </div>
+                  </li>
+                  {sectionIndex === 0 && !section.intro && !section.paragraphs?.length && index === 0 && firstContentAd ? (
+                    <li className="ad-step-item" role="none">{firstContentAd}</li>
+                  ) : null}
+                </Fragment>
               ))}
             </ol>
           ) : null}
@@ -58,6 +70,7 @@ export function WikiPageSections({ sections }: { sections: PageSection[] }) {
               ))}
             </ul>
           ) : null}
+          {sectionIndex === 0 && !section.intro && !section.paragraphs?.length && !section.steps?.length ? firstContentAd : null}
         </section>
       ))}
     </div>
